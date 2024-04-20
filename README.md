@@ -28,7 +28,7 @@ A new Flutter project.
   flutter_spinkit: ^5.1.0
 
 
-export PATH="$PATH:/Users/quydo/Documents/setting/flutter/bin"
+export PATH="$PATH:/Users/lanntq/Documents/setting/flutter/bin"
 flutter pub run build_runner build --delete-conflicting-outputs
 
 ## Getting Started
