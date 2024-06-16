@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:retrofitapi_flutter/pages/splash_page.dart';
 
 import 'base/di/locator.dart';
 import 'main_viewmodel.dart';
 import 'pages/home_page.dart';
 
+
 void main() {
   setUpInjector();
+
   runApp(const MyApp());
 }
 
@@ -23,8 +26,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const MyHomePage(title: 'FETCH API RETROFIT - DIO'),
+      //  home: const MyHomePage(title: 'FETCH API RETROFIT - DIO'),
+        home: const Splash(),
       ),
     );
   }
+  
+ 
 }

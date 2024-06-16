@@ -50,7 +50,7 @@ abstract class BaseViewModel extends ChangeNotifier {
         return;
       }
 
-     // showError(S.of(MedicalApp.context!).message_error_process_failed);
+      // showError(S.of(MedicalApp.context!).message_error_process_failed);
     });
   }
 
